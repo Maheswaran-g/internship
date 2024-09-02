@@ -1,0 +1,11 @@
+.container .btn {
+   position: absolute;
+   top:60%;
+   left: 10%;
+   background-color: yellow;
+   color: black;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   text-align: center; 
+}
