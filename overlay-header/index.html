@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/f5e020d513.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <ul class="sidebar d-flex">
+      <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark" id="cancel"></i>
+      </a></li>
+      <li class="d-flex justify-content-end"><a href="#">Home</a></li>
+      <li><a href="#">Support</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Support</a></li>
+      
+    </ul>
+    <ul>
+      <li><span><i class="fa-brands fa-html5"></i>&nbsp;My blog</span></li>
+      <li onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display= 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display= 'none'
+    }
+  </script>
+</body>
+</html>
