@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.cardbody{
+    height: 100%;
+    align-items: center;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav a:hover{
+    background-color: white;
+}
+
+.sidebar {
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 350px;
+    
+    background-color: white;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    
+}
+nav li{
+    height: 50px;
+}
+.card{
+    height: 100vh;
+}
