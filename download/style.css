@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 50vh;
+    display: grid;
+    place-items:center;
+}
+
+.download-btn{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 80px;
+}
