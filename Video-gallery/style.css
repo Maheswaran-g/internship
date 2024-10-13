@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.videogallery{
+    display: flex;
+    gap: 40px;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+h2{
+    padding: 40px;
+    text-align: center;
+}
