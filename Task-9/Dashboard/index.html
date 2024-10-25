@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/f5e020d513.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+    
+        <section class="sidebar">
+            <div class="logo">
+                
+                <h2><span><i class="fa-brands fa-slack"></i></span>Business</h2>
+            </div>
+            <nav class="menu">
+                <a href="#" class="active"><i class="fas fa-chart-line"></i> Analytics</a>
+                <a href="#"><i class="fas fa-store"></i> Products</a>
+                <a href="#"><i class="fas fa-envelope"></i> Messages</a>
+                <a href="#"><i class="fas fa-user"></i> Customers</a>
+                <hr>
+                <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                <a href="#"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+            </nav>
+        </section>
+
+
+        <main class="main-content">
+            <header class="header">
+                <h1>Analytics</h1>
+                <div class="profile">
+                    <img src="img/mahes.jpg" alt="Profile">
+                    <p>Username</p>
+                </div>
+
+                
+
+            </header>
+
+        
+            <section class="analytics-grid">
+                <div class="card analytics">
+                    <h3>Total Sales</h3>
+                    <span class="amount">$54,000</span>
+                </div>
+                <div class="card analytics">
+                    <h3>Users</h3>
+                    <span class="amount">1,240</span>
+                </div>
+                <div class="card analytics">
+                    <h3>Performance</h3>
+                    <span class="amount">85%</span>
+                </div>
+                <div class="card analytics">
+                    <h3>Revenue</h3>
+                    <span class="amount">$130,000</span>
+                </div>
+            </section>
+
+
+            <section class="charts-grid">
+                <div class="chart-card">
+                    <canvas id="salesChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <canvas id="userChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <canvas id="performanceChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <canvas id="revenueChart"></canvas>
+                </div>
+            </section>
+        </main>
+
+    
+        <button class="toggle-theme">Theme toggler</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
